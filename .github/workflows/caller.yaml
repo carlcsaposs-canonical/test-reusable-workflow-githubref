@@ -1,0 +1,6 @@
+on:
+  push:
+
+jobs:
+  bar:
+    uses: ./.github/workflows/reusable.yaml
